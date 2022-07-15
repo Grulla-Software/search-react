@@ -1,3 +1,5 @@
+![Image text](https://github.com/Grulla-Software/search-react/blob/main/img/heading.png)
+
 # search-reactjs 🚀
 
 Serach-reactjs component allows the search or filter of objects by specifying a search criteria according to the properties of the object, providing flexibility to the developer at the time of implementation and allowing the fulfillment of the requested requirements.
