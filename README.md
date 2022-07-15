@@ -89,7 +89,26 @@ function App() {
 export default App;
 ```
 
-### Props
+### Props of styles
+
+Props are displayed as a table with Name, Type, Default, and Description as headings.
+
+**Required props are marked with `*`.**
+
+| Name         | Type     | Default            | Description                                                                        |
+| ------------ | -------- | -------------------| ---------------------------------------------------------------------------------- |
+| `inputColor`  | `string`| `blue`             | Decreases the size of the button                                                   |
+| `inputWidth`  | `string`| `200px`            | Provides extra visual weight and identifies the primary action in a set of buttons |
+| `placeholder` | `string`| `Serach`           | Renders a button without borders                                                   |
+| `height`      | `string`| `30px`             | Indicates a dangerous or potentially negative action                               |
+| `borderRadius`| `string`| `5px`              | Indicates activity while a background action is being performed                    |
+| `fontSize`    | `string`| ` `                | If provided, renders `a` instead of `button`                                       |
+| `btnColor`    | `string`| `black`            | If provided, renders `a` instead of `button`                                       |
+| `btnWidth`    | `string`| `100px`            | If provided, renders `a` instead of `button`                                       |
+| `hover`       | `string`| `#61DAFB`          | If provided, renders `a` instead of `button`                                       |
+| `btnBorder`   | `string`| `2px solid #61DAFB`| If provided, renders `a` instead of `button`                                       |
+
+### Props of styles for component
 
 Props are displayed as a table with Name, Type, Default, and Description as headings.
 
@@ -103,7 +122,6 @@ Props are displayed as a table with Name, Type, Default, and Description as head
 | `scary`      | `bool`   | `0`     | Indicates a dangerous or potentially negative action                               |
 | `busy`\*     | `bool`   | `0`     | Indicates activity while a background action is being performed                    |
 | `href`       | `string` | `0`     | If provided, renders `a` instead of `button`                                       |
-
 ### Additional usage information
 
 If the component has many states, or if a technical aspect needs more explanation, use this section. Example:
