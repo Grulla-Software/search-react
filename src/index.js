@@ -12,11 +12,11 @@ class SearchReact extends React.Component {
   handleChange(event) {
     this.setState({value: event.target.value});
     if(this.props.hideButton){
-      console.log(this.search(event.target.value));
+      this.props.callBack(this.search(event.target.value));
     }
   }
   searchByButton(){
-   console.log(this.search(this.state.value));
+    this.props.callBack(this.search(this.state.value));
   }
   order(objects,arrayCriterias){
     let result = [];
@@ -46,7 +46,6 @@ class SearchReact extends React.Component {
         let filtered = false;
         for (let i = 0; i < arrayCriterias.length; i++) {
           object = object[arrayCriterias[i]];
-          console.log(object);
           filtered = object;
         }
         if(filtered && value.trim() != ''){
