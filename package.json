@@ -1,6 +1,6 @@
 {
   "name": "search-reactjs",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Search Component",
   "main": "build/index.js",
   "scripts": {
