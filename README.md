@@ -97,14 +97,14 @@ Props are displayed as a table with Name, Type, Default, and Description as head
 
 | Name         | Type     | Default            | Description                                                                        |
 | ------------ | -------- | -------------------| ---------------------------------------------------------------------------------- |
-| `inputColor`  | `string`| `blue`             | Decreases the size of the button                                                   |
-| `inputWidth`  | `string`| `200px`            | Provides extra visual weight and identifies the primary action in a set of buttons |
-| `placeholder` | `string`| `Serach`           | Renders a button without borders                                                   |
-| `height`      | `string`| `30px`             | Indicates a dangerous or potentially negative action                               |
-| `borderRadius`| `string`| `5px`              | Indicates activity while a background action is being performed                    |
-| `fontSize`    | `string`| ` `                | If provided, renders `a` instead of `button`                                       |
-| `btnColor`    | `string`| `black`            | If provided, renders `a` instead of `button`                                       |
-| `btnWidth`    | `string`| `100px`            | If provided, renders `a` instead of `button`                                       |
+| `inputColor`  | `string`| `blue`             | Indicates the text color for the `input` text element.                             |
+| `inputWidth`  | `string`| `200px`            | Indicates the width for the `input` text element.                                  |
+| `placeholder` | `string`| `Serach`           | Indicates the placeholder for the `input` text element.                            |
+| `height`      | `string`| `30px`             | Indicates the height for the `input` text element and the `button` element.        |
+| `borderRadius`| `string`| `5px`              | Indicates the border radius for the `input` text element and the `button` element. |
+| `fontSize`    | `string`| ` `                | Indicates the text size for the `input` text element and the `button` element.     |
+| `btnColor`    | `string`| `black`            | Indicates the text color for the `button` element.                                 |
+| `btnWidth`    | `string`| `100px`            | Indicates the width for the `button` element.                                      |
 | `hover`       | `string`| `#61DAFB`          | If provided, renders `a` instead of `button`                                       |
 | `btnBorder`   | `string`| `2px solid #61DAFB`| If provided, renders `a` instead of `button`                                       |
 
