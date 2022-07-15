@@ -12,6 +12,7 @@ You must open the command console at the root of your project and execute the co
 ```
  npm install search-reactjs --save 
 ```
+
 ## Usage 🛠️
 
 Here is an example of how to implement the component:
