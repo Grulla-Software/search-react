@@ -2,7 +2,7 @@
 
 # search-reactjs 🚀
 
-Serach-reactjs component allows the search or filter of objects by specifying a search criteria according to the properties of the object, providing flexibility to the developer at the time of implementation and allowing the fulfillment of the requested requirements.
+Search-reactjs component allows the search or filter of objects by specifying a search criteria according to the properties of the object, providing flexibility to the developer at the time of implementation and allowing the fulfillment of the requested requirements.
 > The component displays an input text where the user enters the value they want to search for, it also displays the button to start the search action.
 This component also allows to perform the search automatically while the user enters the text in the input.
 
@@ -94,7 +94,7 @@ export default App;
 
 ### Props of styles
 
-Props are displayed as a table with Name, Type, Default, and Description as headings.
+Props for component styles are displayed as a table with Name, Type, Default, and Description as headings.
 
 **Required props are marked with `*`.**
 
@@ -111,21 +111,21 @@ Props are displayed as a table with Name, Type, Default, and Description as head
 | `btnBorder`   | `string`| `2px solid #61DAFB`| Indicates the border for the `button` element.                                     |
 | `btnHoverBackground`|`string`| `#3dbadc`     | Indicates the background color for hover the `button` element.                     |
 | `btnHoverTextColor` | `string`| `#ffff`      | Indicates the text color for hover the `button` element.                           |
+| `btnName`     | `string`| `Serach`           | Indicates the name for the `button` element.                                       |
 
-### Props of styles for component
+### props for functionality
 
-Props are displayed as a table with Name, Type, Default, and Description as headings.
+Props for component functionality are displayed as a table with Name, Type, Default, and Description as headers.
 
 **Required props are marked with `*`.**
 
-| Name         | Type     | Default | Description                                                                        |
-| ------------ | -------- | ------- | ---------------------------------------------------------------------------------- |
-| `compact`    | `bool`   | `0`     | Decreases the size of the button                                                   |
-| `primary`\*  | `bool`   | `0`     | Provides extra visual weight and identifies the primary action in a set of buttons |
-| `borderless` | `bool`   | `0`     | Renders a button without borders                                                   |
-| `scary`      | `bool`   | `0`     | Indicates a dangerous or potentially negative action                               |
-| `busy`\*     | `bool`   | `0`     | Indicates activity while a background action is being performed                    |
-| `href`       | `string` | `0`     | If provided, renders `a` instead of `button`                                       |
+| Name               | Type      | Default | Description                                                                        |
+| ------------------ | --------- | ------- | ---------------------------------------------------------------------------------- |
+| `hideButton`       | `bool`    | `false` | Indicates if the search `button` will be shown.                                    |
+| `searchCriteria`\* | `string`  | ` `     | Specify the search criteria.                                                       |
+| `listObjects`\*    | `array`   | ` `     | `Array` of objects to be filtered.                                                 |
+| `callBack`\*       | `function`| ` `     | `Function` that will receive the `array` of filtered objects.                      |
+
 ### Additional usage information
 
 If the component has many states, or if a technical aspect needs more explanation, use this section. Example:

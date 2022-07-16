@@ -78,7 +78,7 @@ class SearchReact extends React.Component {
             type="text" 
             value={this.state.value}
             onChange={this.handleChange}  
-            placeholder={this.props.placeholder}
+            placeholder={this.props.placeholder?this.props.placeholder:"Serach"}
             style={{
               "color": this.props.inputColor? this.props.inputColor : "blue",
               'width': this.props.inputWidth? this.props.inputWidth: '200px',
@@ -96,7 +96,7 @@ class SearchReact extends React.Component {
         {!this.props.hideButton?
           <input 
             type="button" 
-            value={this.props.btnName}
+            value={this.props.btnName?this.props.btnName:"Serach"}
             onClick={this.searchByButton}
             onMouseEnter={()=>{
               this.setState({hover: true});
