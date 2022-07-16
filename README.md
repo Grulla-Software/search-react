@@ -108,8 +108,9 @@ Props are displayed as a table with Name, Type, Default, and Description as head
 | `fontSize`    | `string`| ` `                | Indicates the text size for the `input` text element and the `button` element.     |
 | `btnColor`    | `string`| `black`            | Indicates the text color for the `button` element.                                 |
 | `btnWidth`    | `string`| `100px`            | Indicates the width for the `button` element.                                      |
-| `hover`       | `string`| `#61DAFB`          | If provided, renders `a` instead of `button`                                       |
-| `btnBorder`   | `string`| `2px solid #61DAFB`| If provided, renders `a` instead of `button`                                       |
+| `btnBorder`   | `string`| `2px solid #61DAFB`| Indicates the border for the `button` element.                                     |
+| `btnHoverBackground`|`string`| `#3dbadc`     | Indicates the background color for hover the `button` element.                     |
+| `btnHoverTextColor` | `string`| `#ffff`      | Indicates the text color for hover the `button` element.                           |
 
 ### Props of styles for component
 
