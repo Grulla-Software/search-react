@@ -117,7 +117,7 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 Additional information about using the component pros.
 
-- **inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
+- ![#1589F0] **inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
 - **inputWidth**: Use this prop for  indicate the width of the input text. Indicate this as a string and in pixel format("200px") or percentage format("10%").
 - **height**: Use this prop for indicate the height of the input text and the button element. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
 - **borderRadius**: Use this prop for  indicate the border radius of the input text and button elements. Specify this as a string and in pixel format ("5px") or percentage format ("10%").
