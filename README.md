@@ -112,8 +112,18 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 | `btnHoverBackground`|`string`| `#3dbadc`     | Indicates the background color for hover the `button` element.                     |
 | `btnHoverTextColor` | `string`| `#ffff`      | Indicates the text color for hover the `button` element.                           |
 | `btnName`     | `string`| `Serach`           | Indicates the name for the `button` element.                                       |
+### Additional usage information
 
-### props for functionality
+If the component has many states, or if a technical aspect needs more explanation, use this section. Example:
+
+- **inputColor**: Use it to indicate the text color for the input text element.You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) " ) or the name of the color ("blue").
+- **inputWidth**: It is used to indicate the width of the input text.Indicate this as a string and in pixel format("20px") or percentage format("10%").
+- **Button with icon**: When words are not enough, icons can be used in buttons to better communicate what the button does.
+- **Scary**: Use when the action will delete customer data or be otherwise difficult to recover from. Destructive buttons should trigger a confirmation dialog before the action is completed. Be thoughtful about using destructive buttons because they can feel stressful for customers.
+- **Borderless**: Use for less important or less commonly used actions since they’re less prominent.
+- **Busy**: Use when a button has been pressed and the associated action is in progress.
+
+### Props for functionality
 
 Props for component functionality are displayed as a table with Name, Type, Default, and Description as headers.
 
@@ -124,7 +134,7 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 | `hideButton`       | `bool`    | `false` | Indicates if the search `button` will be shown.                                    |
 | `searchCriteria`\* | `string`  | ` `     | Specify the search criteria.                                                       |
 | `listObjects`\*    | `array`   | ` `     | `Array` of objects to be filtered.                                                 |
-| `callBack`\*       | `function`| ` `     | `Function` that will receive the `array` of filtered objects.                      |
+| `callBack`\*       | `function`| ` `     | `Function` that will receive  `array` of filtered objects.                      |
 
 ### Additional usage information
 
