@@ -146,8 +146,8 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 If the component has many states, or if a technical aspect needs more explanation, use this section. Example:
 
 - **hideButton**: Use this prop for indicate whether to display the search button. You must indicate this value as a boolean. By default the value is false. By specifying the value as true, the search button will be hidden and the search will be done automatically when the user types the text in the input text element.
-- **listObjects**: When words are not enough, icons can be used in buttons to better communicate what the button does.
-- **callBack**: Use when the action will delete customer data or be otherwise difficult to recover from. Destructive buttons should trigger a confirmation dialog before the action is completed. Be thoughtful about using destructive buttons because they can feel stressful for customers.
+- **listObjects**: Use this prop to specify the list of objects. You must specify this as a list of objects in json format.
+- **callBack**: Use this prop to specify the callback function where the result of the data filtering will be sent. The specified function must receive a parameter.
 - **searchCriteria**: Use this prop to indicate the search criteria on the list of objects. This value is indicated as a string.To specify a search criteria on nested objects, you can do it using the curly brackets, for example:
 ```jsx
 //List objects
@@ -178,19 +178,13 @@ or
 or
 <SearchReact listObjects={users} searchCriteria={'home.local.number'} />
 ```
-### General guidelines
+## Authors ✒️
 
-General guidelines should be a list of tips and best practices. Example:
+People who helped build the project from its inception
 
-- Use clear and accurate labels. Use sentence-style capitalization.
-- Lead with strong, concise, and actionable verbs.
-- When the customer is confirming an action, use specific labels, such as **Save** or **Trash**, instead of using **OK** and **Cancel**.
-- Prioritize the most important actions. Too many calls to action can cause confusion and make customers unsure of what to do next.
+* **Marvin Calvo Acuña** - *Software Development* - [marvinjesus](https://github.com/MarvinJesus)
+* **Marvin Calvo Acuña** - *Documentation* - [marvinjesus](https://github.com/MarvinJesus)
 
-## Related components
+## License 📄
 
-This is an unordered list of components that are related in some way. Components are linked to the detail page of that component. Example:
-
-- To group buttons together, use the [ButtonGroup](./button-group) component.
-- To use a button with a secondary popover menu, use the [SplitButton](./split-button) component.
-- To display a loading spinner with a button, use the [SpinnerButton](../design/spinner-button) component.
+This project is licensed under the ISC License - see the file [LICENSE.md](LICENSE.md) for details.
