@@ -143,7 +143,7 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 ### Additional usage information 📋
 
-If the component has many states, or if a technical aspect needs more explanation, use this section. Example:
+Additional information about using the component pros.
 
 - **hideButton**: Use this prop for indicate whether to display the search button. You must indicate this value as a boolean. By default the value is false. By specifying the value as true, the search button will be hidden and the search will be done automatically when the user types the text in the input text element.
 - **listObjects**: Use this prop to specify the list of objects. You must specify this as a list of objects in json format.
