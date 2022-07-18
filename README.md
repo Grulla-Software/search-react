@@ -150,7 +150,7 @@ If the component has many states, or if a technical aspect needs more explanatio
 - **callBack**: Use when the action will delete customer data or be otherwise difficult to recover from. Destructive buttons should trigger a confirmation dialog before the action is completed. Be thoughtful about using destructive buttons because they can feel stressful for customers.
 - **searchCriteria**: Use this prop to indicate the search criteria on the list of objects. This value is indicated as a string.To specify a search criteria on nested objects, you can do it using the curly brackets, for example:
 ```jsx
-//List objects:
+//List objects
   const users = [
     {
       name:'marvin',
@@ -171,7 +171,7 @@ If the component has many states, or if a technical aspect needs more explanatio
       }
     }
   ]
-///Possible criteria:
+//Possible criteria
 <SearchReact listObjects={users} searchCriteria={'name'} />
 or
 <SearchReact listObjects={users} searchCriteria={'home.location'} />
