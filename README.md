@@ -117,20 +117,16 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 Additional information about using the component pros.
 
-- **+inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
+- **inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
 - **inputWidth**: Use this prop for  indicate the width of the input text. Indicate this as a string and in pixel format("200px") or percentage format("10%").
 - **height**: Use this prop for indicate the height of the input text and the button element. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
 - **borderRadius**: Use this prop for  indicate the border radius of the input text and button elements. Specify this as a string and in pixel format ("5px") or percentage format ("10%").
 - **fontSize**: Use this prop for indicate the size of the text for the input text and button elements. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em").
-- **btnColor**: Use this prop for indicate the color of the text for the button element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) " ) or the name of the color ("blue").
+- **btnColor**: Use this prop for indicate the color of the text for the button element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
 - **btnWidth**: Use this prop for indicate the width of the button element. Specify this as a string and in pixel format ("200px") or percentage format ("10%")..
-- **borderRadius**: .
-- **borderRadius**: .
-- **borderRadius**: .
-- **borderRadius**: .
-- **borderRadius**: .
-- **borderRadius**: .
-- **borderRadius**: .
+- **btnBorder**:Use this property to indicate the border size, border type, and border color for the button element. You can express these values ​​in a string and in the same format as specified in css3, for example: "2px solid #61DAFB".
+- **btnHoverBackground**: Use this prop to indicate the background of the button element when hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
+- **btnHoverTextColor**: Use this prop to indicate the color of the button element's text on hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
 
 ### Props for functionality 📦
 
@@ -149,13 +145,39 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 If the component has many states, or if a technical aspect needs more explanation, use this section. Example:
 
-- **Primary**: Use to highlight the most important actions in any experience. Don’t use more than one primary button in a section or screen to avoid overwhelming customers.
-- **Secondary**: Used most in the interface. Only use another style if a button requires more or less visual weight.
-- **Button with icon**: When words are not enough, icons can be used in buttons to better communicate what the button does.
-- **Scary**: Use when the action will delete customer data or be otherwise difficult to recover from. Destructive buttons should trigger a confirmation dialog before the action is completed. Be thoughtful about using destructive buttons because they can feel stressful for customers.
-- **Borderless**: Use for less important or less commonly used actions since they’re less prominent.
-- **Busy**: Use when a button has been pressed and the associated action is in progress.
-
+- **hideButton**: Use this prop for indicate whether to display the search button. You must indicate this value as a boolean. By default the value is false. By specifying the value as true, the search button will be hidden and the search will be done automatically when the user types the text in the input text element.
+- **listObjects**: When words are not enough, icons can be used in buttons to better communicate what the button does.
+- **callBack**: Use when the action will delete customer data or be otherwise difficult to recover from. Destructive buttons should trigger a confirmation dialog before the action is completed. Be thoughtful about using destructive buttons because they can feel stressful for customers.
+- **searchCriteria**: Use this prop to indicate the search criteria on the list of objects. This value is indicated as a string.To specify a search criteria on nested objects, you can do it using the curly brackets, for example:
+```jsx
+//List objects:
+  const users = [
+    {
+      name:'marvin',
+      home:{
+        location:'Heredia',
+        local:{
+          number: 3
+        }
+      }
+    },
+    {
+      name:'Jose',
+      home:{
+        location:'Puntarenas',
+        local:{
+          number: 5
+        }
+      }
+    }
+  ]
+///Possible criteria:
+ <SearchReact listObjects={users} searchCriteria={'name'} />
+or
+  <SearchReact listObjects={users} searchCriteria={'home.location'} />
+or
+  <SearchReact listObjects={users} searchCriteria={'home.local.number'} />
+```
 ### General guidelines
 
 General guidelines should be a list of tips and best practices. Example:
