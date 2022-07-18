@@ -172,11 +172,11 @@ If the component has many states, or if a technical aspect needs more explanatio
     }
   ]
 ///Possible criteria:
- <SearchReact listObjects={users} searchCriteria={'name'} />
+<SearchReact listObjects={users} searchCriteria={'name'} />
 or
-  <SearchReact listObjects={users} searchCriteria={'home.location'} />
+<SearchReact listObjects={users} searchCriteria={'home.location'} />
 or
-  <SearchReact listObjects={users} searchCriteria={'home.local.number'} />
+<SearchReact listObjects={users} searchCriteria={'home.local.number'} />
 ```
 ### General guidelines
 
