@@ -117,16 +117,16 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 Additional information about using the component pros.
 
-- **inputColor**: Use this prop for  indicate the text color for the input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
-- **inputWidth**: Use this prop for  indicate the width of the input text. Indicate this as a string and in pixel format("200px") or percentage format("10%").
-- **height**: Use this prop for indicate the height of the input text and the button element. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **borderRadius**: Use this prop for  indicate the border radius of the input text and button elements. Specify this as a string and in pixel format ("5px") or percentage format ("10%").
-- **fontSize**: Use this prop for indicate the size of the text for the input text and button elements. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em").
-- **btnColor**: Use this prop for indicate the color of the text for the button element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of the color ("blue").
-- **btnWidth**: Use this prop for indicate the width of the button element. Specify this as a string and in pixel format ("200px") or percentage format ("10%")..
+- **inputColor**: Use this prop for  indicate the text color for input text element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of color ("blue").
+- **inputWidth**: Use this prop for indicate the width of input text. Indicate this as a string and in pixel format("200px") or percentage format("10%").
+- **height**: Use this prop for indicate the height of input text and the button element. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
+- **borderRadius**: Use this prop for indicate the border radius of input text and button elements. Specify this as a string and in pixel format ("5px") or percentage format ("10%").
+- **fontSize**: Use this prop for indicate the size of text for input text and button elements. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em").
+- **btnColor**: Use this prop for indicate the color of text for button element. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% )") or the name of color ("blue").
+- **btnWidth**: Use this prop for indicate the width of button element. Specify this as a string and in pixel format ("200px") or percentage format ("10%")..
 - **btnBorder**:Use this property to indicate the border size, border type, and border color for the button element. You can express these values ​​in a string and in the same format as specified in css3, for example: "2px solid #61DAFB".
-- **btnHoverBackground**: Use this prop to indicate the background of the button element when hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
-- **btnHoverTextColor**: Use this prop to indicate the color of the button element's text on hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("blue").
+- **btnHoverBackground**: Use this prop to indicate the background of button element when hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("blue").
+- **btnHoverTextColor**: Use this prop to indicate the color of button element's text on hover. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("blue").
 
 ### Props for functionality 📦
 

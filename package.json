@@ -40,5 +40,14 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "search",
+    "search reactjs",
+    "search react",
+    "react search",
+    "reactjs search"
+  ]
 }
