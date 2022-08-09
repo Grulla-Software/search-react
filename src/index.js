@@ -49,7 +49,7 @@ class SearchReact extends React.Component {
           filtered = object;
         }
         if(filtered && value.trim() != ''){
-          if(isNaN(value) && isNaN(filtered)){
+          if(isNaN(filtered)){
             return filtered.toUpperCase().includes(value.toUpperCase());
           }else{
             return filtered.includes(value);
