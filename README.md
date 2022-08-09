@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/search-reactjs)](https://www.npmjs.com/package/search-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/search-react/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/search-react/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.13-green.svg)](https://github.com/Grulla-Software/search-react)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.14-green.svg)](https://github.com/Grulla-Software/search-react)
 
 ![Image text](https://github.com/Grulla-Software/search-react/blob/main/img/imgHeading.png)
 
@@ -20,7 +20,7 @@ You must open the command console at the root of your project and execute the co
 
 ## Demo 💻
 
-[Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/quizzical-mendeleev-j3ymmk?fontsize=14&hidenavigation=1&theme=dark)
+[Click me to go to the demo on codeSandbox!](https://codesandbox.io/embed/search-reactjs-m4vvxc?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Usage 🛠️
 
