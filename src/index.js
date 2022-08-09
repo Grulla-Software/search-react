@@ -39,7 +39,7 @@ class SearchReact extends React.Component {
     if(this.props.listObjects){
       let arrayCriterias = this.state.searchCriteria.split('.');
       let arrayObjects = this.props.listObjects;
-      if(value+''.trim() === ''){
+      if(value.trim() === ''){
         return this.order(arrayObjects,arrayCriterias);
       }
       const objects= arrayObjects.filter((object) => {
@@ -49,7 +49,11 @@ class SearchReact extends React.Component {
           filtered = object;
         }
         if(filtered && value.trim() != ''){
-          return filtered+''.toUpperCase().includes(value+''.toUpperCase());
+          if(isNaN(value) && isNaN(filtered)){
+            return filtered.toUpperCase().includes(value.toUpperCase());
+          }else{
+            return filtered.includes(value);
+          }
         }
       });
       return this.order(objects,arrayCriterias);

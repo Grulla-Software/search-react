@@ -1,7 +1,7 @@
 [![npm](https://badgen.net/npm/v/search-reactjs)](https://www.npmjs.com/package/search-reactjs) 
 [![Price](https://img.shields.io/badge/price-FREE-purple.svg)](https://github.com/Grulla-Software/search-react/blob/main/LICENSE.md) 
 [![License: ISC](https://img.shields.io/badge/license-ISC-yellow.svg)](https://github.com/Grulla-Software/search-react/blob/main/LICENSE.md) 
-[![GitHub package version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/Grulla-Software/search-react)
+[![GitHub package version](https://img.shields.io/badge/version-1.0.8-green.svg)](https://github.com/Grulla-Software/search-react)
 
 ![Image text](https://github.com/Grulla-Software/search-react/blob/main/img/imgHeading.png)
 
