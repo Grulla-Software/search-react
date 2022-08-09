@@ -52,7 +52,7 @@ class SearchReact extends React.Component {
           if(isNaN(filtered)){
             return filtered.toUpperCase().includes(value.toUpperCase());
           }else{
-            return filtered.includes(value);
+            return filtered+'' === value+'';
           }
         }
       });
